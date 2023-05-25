@@ -1,0 +1,16 @@
+{
+  "name": "backstop-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backstop:ref": "backstop reference --configPath=backstop-settings.js",
+    "backstop:test": "backstop test --configPath=backstop-settings.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backstopjs": "^6.1.4"
+  }
+}
